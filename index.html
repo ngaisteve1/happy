@@ -1,137 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steve Ngai</title>
-  <link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    table.dataTable tr.odd { background-color: #FFFFE0 }
-  </style>
-</head>
-<body>
-  <p style="text-align:center">
-    <a href="https://ngaisteve1.github.io/happy/?id=s">:)</a>
-  </p>
-  <table id="tbl" class="display" style="width:100%">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Title</th>
-        <th>Desc</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2023-07</td>
-        <td>Abby recovery from hives and fever.</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2023-07</td>
-        <td>Recovered from dengue. Second infection. Insurance covered.</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2023-07</td>
-        <td>Abby called us "Baba" and "Mama" and understand some words like "Clap hands","Bye", "Hands up" and walking on her own with a chair</td>
-        <td>Worry that she has late development in walking and speech.</td>
-      </tr>
-      <tr>
-        <td>2023-06</td>
-        <td>Taiping and Penang trip</td>
-        <td>Safe long journey. Abby is ok and can sleep in Taiping and Penang. Enjoy tasty food in Penang. Good quality family time. Nice weather and good traffic in Taiping.</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Prayer requests</td>
-        <td>To get the right job with good culture and job scope, pass probation with good result if got offer. good working relationship with superior and team.</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Prayer requests</td>
-        <td>Father health and for him be a CHristian</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Prayer requests</td>
-        <td>Abby to walk soon</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Prayer requests</td>
-        <td>Mercy journey to Taiping/Penang</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Prayer requests</td>
-        <td>Root cause and cure for tummy and discomfort and sleep</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Interview</td>
-        <td>Learn from many interviews. Can see the gap for my improvement. Got some indirect job offers. Going to get official one soon. Able to get job references.</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>GERD, tummy, checkup</td>
-        <td>Scope in hospital. No serious problem like cancer. GL fully covered. cost RM5k.</td>
-      </tr>
-      <tr>
-        <td>2023-05</td>
-        <td>Father</td>
-        <td>Quantum holiday that day, no need to take leave to fetch him in hospital. When about the discharge him, suddenly got a CT scan report can his brain got bleeding. So cannot discharge first for further checkup. Imagine if didn't know this, need to fetch him back to hospital. Zero hospital bill: one night in emergency/ICU, ECG, CT scan, medicine, see specialist. If private, can be 5 figure bill. Maybe Wing Fai's connection waive this. Also his help to arrange that can directly go emergency. Otherwise might need to start from Klinik Kesihatan, then to specialist. With this visit, found his BP very high 198 / 122. Found out his old stroke and new stroke and minor bleeding in brain. When fetch him back, car remote key battery koyak. When reach home, cannot even to lock the car. Imagine the battery totally finished when I am in the hospital, very troublesome and costly.</td>
-      </tr>
-      <tr>
-        <td>2022-11</td>
-        <td>Recovered from Covid</td>
-        <td>Recovered from Covid after 5 days.</td>
-      </tr>
-      <tr>
-        <td>2022-11</td>
-        <td>Hangfire</td>
-        <td>Thanks to AHIB and Kevin. It helps my tasks in Quantum</td>
-      </tr>
-      <tr>
-        <td>2022-11</td>
-        <td>Confirmed after 3 months of probation with good result</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2022-11</td>
-        <td>Abby fever recovered in 1 days without medicine</td>
-        <td>Also her cough and flu later on</td>
-      </tr>
-      <tr>
-        <td>2022-08</td>
-        <td>Got a new job</td>
-        <td>Better pay (extra 40%), work from home, good manager, insurance cover family. Modern software dev. Work life balance.</td>
-      </tr>
-      <tr>
-        <td>2022-04</td>
-        <td>Received good bonus</td>
-        <td>4 months</td>
-      </tr>
-      <tr>
-        <td>2022-06</td>
-        <td>Abigail support</td>
-        <td>Breastfeeding resume. Night sleep improve. Smile. Parents support to cook and babysit.</td>
-      </tr>
-      <tr>
-        <td>2022-04</td>
-        <td>Can work from home after Abigail was born until now</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2022-04</td>
-        <td>Born of baby Abigail</td>
-        <td>All ok at the moment. No disability.</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steve Ngai</title>
+    <link
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      table.dataTable tr.odd {
+        background-color: #ffffe0;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="text-align: center">
+      <a href="https://ngaisteve1.github.io/happy/?id=s">:)</a>
+    </p>
+    <table id="tbl" class="display" style="width: 100%">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Title</th>
+          <th>Desc</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2023-09</td>
+          <td>Abby recovery from HFMD.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2023-09</td>
+          <td>Received and accepted job offer from Arvato</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2023-07</td>
+          <td>Abby recovery from hives and fever.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2023-07</td>
+          <td>Recovered from dengue. Second infection. Insurance covered.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2023-07</td>
+          <td>
+            Abby called us "Baba" and "Mama" and understand some words like
+            "Clap hands","Bye", "Hands up" and walking on her own with a chair
+          </td>
+          <td>Worry that she has late development in walking and speech.</td>
+        </tr>
+        <tr>
+          <td>2023-06</td>
+          <td>Taiping and Penang trip</td>
+          <td>
+            Safe long journey. Abby is ok and can sleep in Taiping and Penang.
+            Enjoy tasty food in Penang. Good quality family time. Nice weather
+            and good traffic in Taiping.
+          </td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Prayer requests</td>
+          <td>
+            To get the right job with good culture and job scope, pass probation
+            with good result if got offer. good working relationship with
+            superior and team.
+          </td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Prayer requests</td>
+          <td>Father health and for him be a CHristian</td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Prayer requests</td>
+          <td>Abby to walk soon</td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Prayer requests</td>
+          <td>Mercy journey to Taiping/Penang</td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Prayer requests</td>
+          <td>Root cause and cure for tummy and discomfort and sleep</td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Interview</td>
+          <td>
+            Learn from many interviews. Can see the gap for my improvement. Got
+            some indirect job offers. Going to get official one soon. Able to
+            get job references.
+          </td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>GERD, tummy, checkup</td>
+          <td>
+            Scope in hospital. No serious problem like cancer. GL fully covered.
+            cost RM5k.
+          </td>
+        </tr>
+        <tr>
+          <td>2023-05</td>
+          <td>Father</td>
+          <td>
+            Quantum holiday that day, no need to take leave to fetch him in
+            hospital. When about the discharge him, suddenly got a CT scan
+            report can his brain got bleeding. So cannot discharge first for
+            further checkup. Imagine if didn't know this, need to fetch him back
+            to hospital. Zero hospital bill: one night in emergency/ICU, ECG, CT
+            scan, medicine, see specialist. If private, can be 5 figure bill.
+            Maybe Wing Fai's connection waive this. Also his help to arrange
+            that can directly go emergency. Otherwise might need to start from
+            Klinik Kesihatan, then to specialist. With this visit, found his BP
+            very high 198 / 122. Found out his old stroke and new stroke and
+            minor bleeding in brain. When fetch him back, car remote key battery
+            koyak. When reach home, cannot even to lock the car. Imagine the
+            battery totally finished when I am in the hospital, very troublesome
+            and costly.
+          </td>
+        </tr>
+        <tr>
+          <td>2022-11</td>
+          <td>Recovered from Covid</td>
+          <td>Recovered from Covid after 5 days.</td>
+        </tr>
+        <tr>
+          <td>2022-11</td>
+          <td>Hangfire</td>
+          <td>Thanks to AHIB and Kevin. It helps my tasks in Quantum</td>
+        </tr>
+        <tr>
+          <td>2022-11</td>
+          <td>Confirmed after 3 months of probation with good result</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2022-11</td>
+          <td>Abby fever recovered in 1 days without medicine</td>
+          <td>Also her cough and flu later on</td>
+        </tr>
+        <tr>
+          <td>2022-08</td>
+          <td>Got a new job</td>
+          <td>
+            Better pay (extra 40%), work from home, good manager, insurance
+            cover family. Modern software dev. Work life balance.
+          </td>
+        </tr>
+        <tr>
+          <td>2022-04</td>
+          <td>Received good bonus</td>
+          <td>4 months</td>
+        </tr>
+        <tr>
+          <td>2022-06</td>
+          <td>Abigail support</td>
+          <td>
+            Breastfeeding resume. Night sleep improve. Smile. Parents support to
+            cook and babysit.
+          </td>
+        </tr>
+        <tr>
+          <td>2022-04</td>
+          <td>Can work from home after Abigail was born until now</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2022-04</td>
+          <td>Born of baby Abigail</td>
+          <td>All ok at the moment. No disability.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
